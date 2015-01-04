@@ -22,7 +22,7 @@ int main(int argc, char** argv)
 	int high = 20;
 	
 	//read video
-	VideoCapture capture("./test1.mp4");
+	VideoCapture capture("./test2.mp4");
 	FrameTracker frameTracker(20, low, high);
 
 	
